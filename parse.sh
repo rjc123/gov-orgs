@@ -1,1 +1,1 @@
-cat raw/* | jq --slurp '.[] | .results | .[]' > orgs.json
+cat raw/* | jq --slurp '.[]' > orgs.json
